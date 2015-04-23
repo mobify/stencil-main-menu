@@ -1,0 +1,13 @@
+<style>
+    /* Test-specific fixture styles go here. */
+</style>
+
+{@c-spec for="Main Menu" repository=repo}
+    {@c-spec__test describe=".c-main-menu"}
+        {@c-spec__case expect="It should do something."}
+
+            {! Test case here !}
+
+        {/c-spec__case}
+    {/c-spec__test}
+{/c-spec}
