@@ -1,23 +1,40 @@
-<div class="c-main-menu {class}">
-    {?header}
-        {header}
-    {:else}
-        <strong>default header</strong>
-    {/header}
+<div class="c-main-menu pinny__wrapper {class}" role="document" hidden>
+    <div class="pinny__header">
+        {?header}
+            {header}
+        {:else}
+            <h2 class="pinny__title">default header</h2> <a class="pinny__close">close</a>
+        {/header}
+    </div>
 
-    {?body}
-        {body}
-    {:else}
-        {@c-main-menu__level items=items /}
-    {/body}
+    <div class="pinny__content pinny--is-scrollable">
+        {?body}
+            {body}
+        {:else}
+            {@c-main-menu__level items=items /}
+        {/body}
+    </div>
 
-    {?footer}
-        {footer}
-    {:else}
-        <strong>default footer</strong>
-    {/footer}
+    <div class="pinny__footer">
+        {?footer}
+            {footer}
+        {:else}
+            <strong>default footer</strong>
+        {/footer}
+    </div>
 </div>
 
 <script>
-    $('.bellows').bellows();
+    (function(require) {
+        require(['sheet-left'], function(sheetLeft) {
+            console.log('instantiating the shiz');
+
+            $('.bellows').bellows();
+            $('.c-main-menu').pinny({
+                effect: sheetLeft,
+                coverage: '85%',
+                structure: false
+            });
+        });
+    })(require);
 </script>

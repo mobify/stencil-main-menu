@@ -7,6 +7,12 @@ require(['config'], function() {
         'plugin',
         'velocity',
         'bellows',
+        'pinny',
+        'sheet-left',
+        'shade',
+        'lockup',
+        'deckard',
+        'bouncefix',
         'stencil-spec/spec.template',
         '../../main-menu.template'
     ],
@@ -254,6 +260,11 @@ require(['config'], function() {
         dust.renderSource(tests, context, function(err, out) {
             if (!err) {
                 $('body').html(out);
+
+                $('button').on('click', function(e) {
+                    console.log('toggling');
+                    $('.c-main-menu').pinny('toggle');
+                });
             } else {
                 console.log(err);
             }

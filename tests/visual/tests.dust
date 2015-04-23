@@ -6,12 +6,9 @@
     {@c-spec__test describe=".c-main-menu"}
         {@c-spec__case expect="It should do something."}
 
-            {@c-main-menu items=menuItems}
-            {:header}
-                <p>my custom header</p>
-            {:footer}
-                <p>my custom footer</p>
-            {/c-main-menu}
+            <button type="button">Toggle</button>
+
+            {@c-main-menu items=menuItems /}
 
         {/c-spec__case}
     {/c-spec__test}
