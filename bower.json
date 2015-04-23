@@ -31,7 +31,8 @@
   "dependencies": {
     "level": "mobify/level#~0.0.1",
     "stencil-variables": "ry5n/stencil-variables",
-    "dustjs-component": "mobify/dustjs-helper-component#adaptive-compat"
+    "dustjs-component": "mobify/dustjs-helper-component#adaptive-compat",
+    "bellows": "~5.1.2"
   },
   "devDependencies": {
     "stencil-spec": "ry5n/stencil-spec#dust",
