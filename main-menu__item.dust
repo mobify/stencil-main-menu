@@ -1,0 +1,14 @@
+{?items}
+    <li class="bellows__item">
+        <div class="bellows__header">
+            {label}
+        </div>
+        <div class="bellows__content">
+            {@c-main-menu__level items=items /}
+        </div>
+    </li>
+{:else}
+    <li>
+        <a class="c-main-menu__link" href="{href}">{label}</a>
+    </li>
+{/items}

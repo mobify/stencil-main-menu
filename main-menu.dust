@@ -1,3 +1,19 @@
 <div class="c-main-menu {class}">
+    {?header}
+        {header}
+    {:else}
+        <strong>default header</strong>
+    {/header}
 
+    {?body}
+        {body}
+    {:else}
+    {/body}
+        {@c-main-menu__level items=items /}
+
+    {?footer}
+        {footer}
+    {:else}
+        <strong>default footer</strong>
+    {/footer}
 </div>
