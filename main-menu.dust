@@ -8,8 +8,8 @@
     {?body}
         {body}
     {:else}
-    {/body}
         {@c-main-menu__level items=items /}
+    {/body}
 
     {?footer}
         {footer}
