@@ -1,0 +1,41 @@
+{
+  "name": "stencil-main-menu",
+  "version": "0.0.0",
+  "description": "A main menu",
+  "authors": [
+    "Mobify"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mobify/stencil-main-menu.git"
+  },
+  "keywords": [
+    "mobify",
+    "components",
+    "patterns"
+  ],
+  "license": "MIT",
+  "main": [
+    "src/_style.scss",
+    "src/template.dust",
+    "src/schema.js",
+    "src/ui.js"
+  ],
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "Gruntfile.js",
+    "tests"
+  ],
+  "dependencies": {
+    "level": "mobify/level#~0.0.1",
+    "stencil-variables": "ry5n/stencil-variables",
+    "dustjs-component": "mobify/dustjs-helper-component#adaptive-compat"
+  },
+  "devDependencies": {
+    "stencil-spec": "ry5n/stencil-spec#dust",
+    "requirejs": "^2.1.0",
+    "text": "^2.0.0"
+  }
+}

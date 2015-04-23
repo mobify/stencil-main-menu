@@ -1,0 +1,23 @@
+// Stencil Main Menu
+// ===
+
+
+// Configurable variables
+// ---
+
+$main-menu__example: some-value;
+
+
+// Dependencies
+// ---
+
+@import 'stencil-variables/src/style';
+@import 'level/level';
+
+
+// Main Menu
+// ---
+
+.c-main-menu {
+
+}
