@@ -1,4 +1,4 @@
-<ul class="bellows">
+<ul class="c-main-menu__level bellows">
     {?body}
         {body}
     {:else}

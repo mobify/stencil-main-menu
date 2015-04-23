@@ -17,3 +17,7 @@
         <strong>default footer</strong>
     {/footer}
 </div>
+
+<script>
+    $('.bellows').bellows();
+</script>

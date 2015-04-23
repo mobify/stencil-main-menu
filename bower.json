@@ -37,6 +37,7 @@
   "devDependencies": {
     "stencil-spec": "ry5n/stencil-spec#dust",
     "requirejs": "^2.1.0",
-    "text": "^2.0.0"
+    "text": "^2.0.0",
+    "jquery": "~2.1.3"
   }
 }
