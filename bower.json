@@ -33,7 +33,8 @@
     "stencil-variables": "ry5n/stencil-variables",
     "dustjs-component": "mobify/dustjs-helper-component#adaptive-compat",
     "bellows": "~5.1.2",
-    "pinny": "~2.0.2"
+    "pinny": "~2.0.2",
+    "stencil-input-inline-btn": "mobify/stencil-input-inline-btn"
   },
   "devDependencies": {
     "stencil-spec": "ry5n/stencil-spec#dust",
