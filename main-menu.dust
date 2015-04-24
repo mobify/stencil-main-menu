@@ -3,7 +3,7 @@
         {?header}
             {header}
         {:else}
-            <h2 class="pinny__title">default header</h2> <a class="pinny__close">close</a>
+            {@c-input-inline-btn type="search" placeholder="Search…" buttonText="Go" /}
         {/header}
     </div>
 

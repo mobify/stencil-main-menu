@@ -22,7 +22,8 @@ require.config({
         'shade': '../../bower_components/shade/dist/shade.min',
         'lockup': '../../bower_components/lockup/dist/lockup.min',
         'deckard': '../../bower_components/deckard/dist/deckard.min',
-        'bouncefix': '../../bower_components/bouncefix.js/dist/bouncefix.min'
+        'bouncefix': '../../bower_components/bouncefix.js/dist/bouncefix.min',
+        'stencil-input-inline-btn': '../../bower_components/stencil-input-inline-btn',
     },
     shim: {
         'dust-core': {

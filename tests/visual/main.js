@@ -14,6 +14,7 @@ require(['config'], function() {
         'deckard',
         'bouncefix',
         'stencil-spec/spec.template',
+        'stencil-input-inline-btn/input-inline-btn.template',
         '../../main-menu.template'
     ],
     function($, dust, text, tests) {
